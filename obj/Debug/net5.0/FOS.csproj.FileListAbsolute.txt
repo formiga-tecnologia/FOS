@@ -38,3 +38,4 @@ C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\ref\FOS.dll
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\FOS.pdb
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\FOS.genruntimeconfig.cache
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\FOS.csproj.CopyComplete
+C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\About\index.cshtml.g.cs

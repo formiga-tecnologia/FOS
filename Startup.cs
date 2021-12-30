@@ -51,6 +51,10 @@ namespace FOS
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                    name:"sobre",
+                    pattern:"{controller=About}/{id?}"
+                );
             });
         }
     }
