@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\FOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\FOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\FOS.csproj",
+        "projectName": "FOS",
+        "projectPath": "C:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\FOS.csproj",
+        "packagesPath": "C:\\Users\\FELIPE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FELIPE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
