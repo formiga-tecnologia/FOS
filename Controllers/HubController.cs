@@ -10,8 +10,8 @@ using FOS.Models;
 namespace FOS.Controllers
 {
     public class HubController: Controller{
-        public IActionResult Index(string hubEnv){
-            if(hubEnv == null){
+        public IActionResult Env(string name){
+            if(name == null){
                 return Redirect("~/Hub/Error");
             }
             return View();

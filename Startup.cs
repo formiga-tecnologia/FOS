@@ -64,7 +64,7 @@ namespace FOS
                 );
                 endpoints.MapControllerRoute(
                     name: "HubRoute",
-                    pattern: "{controller=About}/{action=Index}"
+                    pattern: "{controller=Hub}/{action=Env}/{name?}"
                 );
                 endpoints.MapControllerRoute(
                     name: "HubError",
