@@ -49,11 +49,11 @@ namespace FOS
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    name: "Default",
+                    pattern: "{controller=Home}/{action=Index}/{name?}");
                 endpoints.MapControllerRoute(
-                    name:"sobre",
-                    pattern:"{controller=About}/{id?}"
+                    name: "usersField",
+                    pattern: "{controller=User}/{action=Index}/{name?}/{tipo?}"
                 );
             });
         }

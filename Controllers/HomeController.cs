@@ -27,6 +27,10 @@ namespace FOS.Controllers
         {
             return View();
         }
+        public IActionResult Userbase(string user)
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
