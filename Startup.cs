@@ -62,6 +62,14 @@ namespace FOS
                     name: "aboutRoute",
                     pattern: "{controller=About}/{action=Index}"
                 );
+                endpoints.MapControllerRoute(
+                    name: "HubRoute",
+                    pattern: "{controller=About}/{action=Index}"
+                );
+                endpoints.MapControllerRoute(
+                    name: "HubError",
+                    pattern: "{controller=Hub}/{action=Error}/{erroId?}"
+                );
             });
         }
     }

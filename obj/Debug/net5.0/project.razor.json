@@ -15619,6 +15619,16 @@
   "RootNamespace": "FOS",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Hub\\Error.cshtml",
+      "TargetPath": "Views\\Hub\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Hub\\Index.cshtml",
+      "TargetPath": "Views\\Hub\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
