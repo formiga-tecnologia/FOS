@@ -52,8 +52,15 @@ namespace FOS
                     name: "Default",
                     pattern: "{controller=Home}/{action=Index}/{name?}");
                 endpoints.MapControllerRoute(
+                    name: "DefaultPrivacy",
+                    pattern: "{controller=Home}/{action=Privacy}");
+                endpoints.MapControllerRoute(
                     name: "usersField",
                     pattern: "{controller=User}/{action=Index}/{name?}/{tipo?}"
+                );
+                endpoints.MapControllerRoute(
+                    name: "aboutRoute",
+                    pattern: "{controller=About}/{action=Index}"
                 );
             });
         }
