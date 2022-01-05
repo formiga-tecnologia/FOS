@@ -56,7 +56,7 @@ namespace FOS
                     pattern: "{controller=Home}/{action=Privacy}");
                 endpoints.MapControllerRoute(
                     name: "usersField",
-                    pattern: "{controller=User}/{action=Index}/{name?}/{tipo?}"
+                    pattern: "{controller=Home}/{action=UserArea}/{name?}/{tipo?}"
                 );
                 endpoints.MapControllerRoute(
                     name: "aboutRoute",

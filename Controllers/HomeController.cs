@@ -27,7 +27,11 @@ namespace FOS.Controllers
         {
             return View();
         }
-        public IActionResult Userbase(string user)
+        public IActionResult UserArea(string user)
+        {
+            return View();
+        }
+        public IActionResult Explore()
         {
             return View();
         }

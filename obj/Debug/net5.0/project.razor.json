@@ -15639,6 +15639,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Home\\UserArea.cshtml",
+      "TargetPath": "Views\\Home\\UserArea.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Home\\Explore.cshtml",
+      "TargetPath": "Views\\Home\\Explore.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
