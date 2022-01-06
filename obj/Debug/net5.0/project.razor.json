@@ -15624,11 +15624,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Hub\\Index.cshtml",
-      "TargetPath": "Views\\Hub\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15681,6 +15676,11 @@
     {
       "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\About\\index.cshtml",
       "TargetPath": "Views\\About\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Hub\\Env.cshtml",
+      "TargetPath": "Views\\Hub\\Env.cshtml",
       "FileKind": "mvc"
     }
   ],
