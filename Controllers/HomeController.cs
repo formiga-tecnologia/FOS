@@ -31,6 +31,10 @@ namespace FOS.Controllers
         {
             return View();
         }
+        public IActionResult NewUser()
+        {
+            return View();
+        }
         public IActionResult Explore()
         {
             return View();

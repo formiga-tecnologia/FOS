@@ -70,6 +70,10 @@ namespace FOS
                     name: "HubError",
                     pattern: "{controller=Hub}/{action=Error}/{erroId?}"
                 );
+                endpoints.MapControllerRoute(
+                    name:"UserRoute",
+                    pattern:"{controller=User}/{action=Page}/{id?}" 
+                );
             });
         }
     }

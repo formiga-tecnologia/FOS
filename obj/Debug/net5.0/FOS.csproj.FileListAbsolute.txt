@@ -39,8 +39,9 @@ C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\FOS.pdb
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\FOS.genruntimeconfig.cache
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\FOS.csproj.CopyComplete
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\About\index.cshtml.g.cs
-C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Home\Explore.cshtml.g.cs
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Home\UserArea.cshtml.g.cs
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Hub\Error.cshtml.g.cs
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Hub\Env.cshtml.g.cs
+C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\User\Page.cshtml.g.cs
+C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Home\NewUser.cshtml.g.cs

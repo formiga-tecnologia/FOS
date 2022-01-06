@@ -11,13 +11,17 @@ namespace FOS.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Index(string name,int tipo,string nickname)
-        {
+        public IActionResult Page(string id){
+            if(id == null){
+                return Redirect("~/Hub/Error");
+            }
+            if(id =="Felipe"){
+                ViewBag.TypeUser = "User";
+            }
+            else{
+                ViewBag.TypeUser = "Visitor";
+            }
             return View();
-        }
-        public IActionResult Users(string user)
-        {
-            return View(user);
         }
     }
 }
