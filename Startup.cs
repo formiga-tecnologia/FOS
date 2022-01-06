@@ -74,6 +74,10 @@ namespace FOS
                     name:"UserRoute",
                     pattern:"{controller=User}/{action=Page}/{id?}" 
                 );
+                endpoints.MapControllerRoute(
+                    name:"EnvCreate",
+                    pattern:"{controller=EnvCreate}/{action=Index}/{id?}" 
+                );
             });
         }
     }

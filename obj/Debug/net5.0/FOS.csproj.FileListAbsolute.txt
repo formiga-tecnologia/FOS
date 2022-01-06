@@ -45,3 +45,4 @@ C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Hu
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Hub\Env.cshtml.g.cs
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\User\Page.cshtml.g.cs
 C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\Home\NewUser.cshtml.g.cs
+C:\Users\FELIPE\Documents\FormigaTech\FosHub\FOS\obj\Debug\net5.0\Razor\Views\EnvCreate\Index.cshtml.g.cs

@@ -15649,6 +15649,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\EnvCreate\\Index.cshtml",
+      "TargetPath": "Views\\EnvCreate\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\Views\\Home\\UserArea.cshtml",
       "TargetPath": "Views\\Home\\UserArea.cshtml",
       "FileKind": "mvc"
