@@ -1,18 +1,19 @@
-import EngineApp from '../Lavine-master/Lavine.js'
+import {Routes} from '../Lavine-master/Lavine.js'
+import {Render} from '../Lavine-master/Lavine.js'
 import IndexPage from '../components/index.js'
 
 var isCreate = false
-var _baseRoutes = new EngineApp.Routes();
-var _renderLavine = new EngineApp.Render();
+var _baseRoutes = new Routes();
+var _renderLavine = new Render();
 
 class RoutesBase{
     routesCreated(){
         if(isCreate == false){
-            _baseRoutes.registerRoute("https://localhost:5001/Home/#index",this.index)
+            _baseRoutes.registerRoute("https://localhost:5001/#index",this.index)
         }
         isCreate = true
-        _baseRoutes.runRoute("https://localhost:5001/Home/UserArea","https://localhost:5001/Home/#index")
-        _baseRoutes.whenUpdate(_baseRoutes.runRoute("https://localhost:5001/Home/#index",this.index))
+        _baseRoutes.runRoute("https://localhost:5001/","https://localhost:5001/#index")
+        _baseRoutes.whenUpdate(_baseRoutes.runRoute("https://localhost:5001/#index","https://localhost:5001/#index"))
     }
     index(){
         _renderLavine.registerDinamicPage("appLavine")

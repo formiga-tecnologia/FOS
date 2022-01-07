@@ -1,10 +1,14 @@
-import EngineApp from '../Lavine-master/Lavine.js'
+import {Components} from '../Lavine-master/Lavine.js'
+
 
 function IndexPage(){
-    let eng = new EngineApp.ComponentsEngine();
+    let eng = new Components();
     eng.createComponent("Article1",articlePage())
     eng.renderComponent("appLavine","Article1")
 }
 function articlePage(){
-    return "<div> Hello world </div>"
+    console.log("Esta funcionando")
+
 }
+
+export default IndexPage

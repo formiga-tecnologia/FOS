@@ -2,14 +2,10 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-import routes  from './routes/routes.js'
-import EngineApp from './Lavine-master/Lavine.js'
-var _routesBase =  new EngineApp.Routes();
-var _registerRoutes = new routes()
+import RoutesBase  from './routes/routes.js'
+import {Routes} from './Lavine-master/Lavine.js'
+var _routesBase =  new Routes();
+var _registerRoutes = new RoutesBase()
 
 _registerRoutes.routesCreated()
-
-if(window.location.href == 'https://localhost:5001/Home/'){
-    _routesBase.goToLink('https://localhost:5001/Home/#index')
-}
 
