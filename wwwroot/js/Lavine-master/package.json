@@ -1,0 +1,26 @@
+{
+  "name": "lavinedev",
+  "version": "1.0.6",
+  "description": "Dev tool for create SPA Applications",
+  "main": "Lavine",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formiga-tecnologia/Lavine.git"
+  },
+  "keywords": [
+    "frontend"
+  ],
+  "author": "Formiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/formiga-tecnologia/Lavine/issues"
+  },
+  "homepage": "https://github.com/formiga-tecnologia/Lavine#readme"
+}
