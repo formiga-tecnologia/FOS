@@ -6,11 +6,7 @@ import RoutesBase  from './routes/routes.js'
 import {Routes} from './Lavine-master/Lavine.js'
 var _routesBase =  new Routes();
 var _registerRoutes = new RoutesBase()
-var somenteCall = false
-if(somenteCall == false){
+
 _registerRoutes.routesCreated()
-}
-if(window.location.href == 'https://localhost:5001/'){
-    _routesBase.goToLink('https://localhost:5001/#index')
-}
+
 

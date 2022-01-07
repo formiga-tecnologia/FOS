@@ -8,7 +8,8 @@ function IndexPage(){
 }
 function articlePage(){
     console.log("Esta funcionando")
-    return "<div> Hello world </div>"
+    return "<div> Hello world </div>"+
+    "<a  href='https://localhost:5001/Home/NewUser/#authIo/#teste'>Clique aqui</a>"
 }
 
 export default IndexPage
