@@ -38,10 +38,10 @@ class Components {
         this._ComponentsEngine.createComponent(componentName, content)
     }
     renderComponent(targetRender, componentName) {
-        this._CComponentsEngine.renderComponent(targetRender, componentName)
+        this._ComponentsEngine.renderComponent(targetRender, componentName)
     }
     addListener(targetElement, type, functionCall) {
-        this._CComponentsEngine.addListener(targetElement, type, functionCall)
+        this._ComponentsEngine.addListener(targetElement, type, functionCall)
     }
 }
 class Reactive {

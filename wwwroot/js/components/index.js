@@ -8,7 +8,7 @@ function IndexPage(){
 }
 function articlePage(){
     console.log("Esta funcionando")
-
+    return "<div> Hello world </div>"
 }
 
 export default IndexPage
