@@ -7,6 +7,8 @@ var _baseRoutes = new Routes();
 var _renderLavine = new Render();
 
 class RoutesBase{
+    //Definir que isso é  um conceito SPA onde uma unica pagina pode carregar varios componentes
+    //E não de rotas direcionadas!!
     routesCreated(){
         if(isCreate == false){
             _baseRoutes.registerRoute("https://localhost:5001/#index",this.index)
