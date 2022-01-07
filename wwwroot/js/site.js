@@ -4,9 +4,13 @@
 // Write your JavaScript code.
 import RoutesBase  from './routes/routes.js'
 import {Routes} from './Lavine-master/Lavine.js'
-var _routesBase =  new Routes();
 var _registerRoutes = new RoutesBase()
 
-_registerRoutes.routesCreated()
-
-
+if(window.location.href.includes("https://localhost:5001/#"))
+{
+    _registerRoutes.HomeRoutes()
+}
+if(window.location.href.includes("https://localhost:5001/Home/NewUser/#"))
+{
+    _registerRoutes.NewUserRoutes()
+}
