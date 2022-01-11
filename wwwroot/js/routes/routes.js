@@ -12,14 +12,16 @@ class RoutesBase {
 
     //Rotas Padrão
     HomeRoutes() {
+        _baseRoutes.nestRoutes("https://localhost:5001/#teste","","");
         if (isCreate == false) {
+            _baseRoutes.registerRoute("https://localhost:5001/#teste", this.index)
             _baseRoutes.registerRoute("https://localhost:5001/#index", this.index)
             _baseRoutes.registerRoute("https://localhost:5001/#sobre", this.pagina2)
             _baseRoutes.registerRoute("https://localhost:5001/#updates", this.pagina3)
         }
         isCreate = true
-        _baseRoutes.runRoute("https://localhost:5001/", "https://localhost:5001/#index")
-        _baseRoutes.whenUpdate(_baseRoutes.runRoute("https://localhost:5001/#index", "https://localhost:5001/#index"))
+        _baseRoutes.runRoute("https://localhost:5001/#", "https://localhost:5001/#index")
+        _baseRoutes.whenUpdate(_baseRoutes.runRoute("https://localhost:5001/#", "https://localhost:5001/#index"))
     }
     NewUserRoutes(){
         if (isCreate == false) {

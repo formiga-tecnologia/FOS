@@ -135,6 +135,10 @@ class routesEngine {
             }
         }
     }
+    nestRoutes(targetLocation,routeTarget,QtdPathNest){
+        let CountTargetLocation = targetLocation.length;
+        console.log(CountTargetLocation)
+    }
     runRoute(initialPage, InitialPageRedirect) {
         if (window.location.href == initialPage) {
             this.goToLink(InitialPageRedirect)

@@ -113,6 +113,9 @@ class Routes {
     registerNest(linkedTo,routePathRegister,compevent,nest){
         this._routesModule.registerNest(linkedTo,routePathRegister,compevent,nest)
     }
+    nestRoutes(targetLocation,routeTarget,QtdPathNest){
+        this._routesModule.nestRoutes(targetLocation,routeTarget,QtdPathNest)
+    }
 }
 class Security{
     _securityModule = new SecurityModule
