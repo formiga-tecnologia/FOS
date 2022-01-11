@@ -13,3 +13,6 @@ if(window.location.href.includes("https://localhost:5001/Home/NewUser/#"))
 {
     _registerRoutes.NewUserRoutes()
 }
+if(window.location.href.includes("https://localhost:5001/Home/NewUser/?id=felipe/#teste")){
+    _registerRoutes.HomeRoutes()
+}

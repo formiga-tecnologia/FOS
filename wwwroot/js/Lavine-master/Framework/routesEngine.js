@@ -137,6 +137,23 @@ class routesEngine {
     }
     nestRoutes(targetLocation,routeTarget,QtdPathNest){
         let CountTargetLocation = targetLocation.length;
+        let index_count=0
+        let QtdNest = 0
+
+
+        while(CountTargetLocation>=index_count){
+            if(targetLocation[index_count] === '/'){
+                QtdNest+=1
+            }
+            if(QtdNest === QtdPathNest){
+                console.log(CountTargetLocation+" !Pegamos aqui")
+                break;
+            }
+            console.log(targetLocation[index_count])
+            index_count+=1;
+            
+        }
+        console.log(index_count)
         console.log(CountTargetLocation)
     }
     runRoute(initialPage, InitialPageRedirect) {

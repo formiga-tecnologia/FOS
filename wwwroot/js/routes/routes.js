@@ -12,7 +12,7 @@ class RoutesBase {
 
     //Rotas Padrão
     HomeRoutes() {
-        _baseRoutes.nestRoutes("https://localhost:5001/#teste","","");
+        _baseRoutes.nestRoutes("https://localhost:5001/Home/NewUser/?id=felipe/#teste","",6);
         if (isCreate == false) {
             _baseRoutes.registerRoute("https://localhost:5001/#teste", this.index)
             _baseRoutes.registerRoute("https://localhost:5001/#index", this.index)
