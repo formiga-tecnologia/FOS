@@ -12,7 +12,13 @@ class RoutesBase {
 
     //Rotas Padrão
     HomeRoutes() {
-        _baseRoutes.nestRoutes("https://localhost:5001/Home/NewUser/?id=felipe/#teste","",6);
+        //https://localhost:5001/Home/NewUser/?id=felipe/#test
+        //Apenas para testes
+        _baseRoutes.registerRoute("https://localhost:5001/#teste", this.index)
+        _baseRoutes.registerRoute("https://localhost:5001/#localizate", this.pagina3)
+        _baseRoutes.registerRoute("https://localhost:5001/#permalink", this.index)
+        //Testar casos de condição do Nestd Routes
+        _baseRoutes.nestRoutes(window.location.href,"https://localhost:5001",6);
         if (isCreate == false) {
             _baseRoutes.registerRoute("https://localhost:5001/#teste", this.index)
             _baseRoutes.registerRoute("https://localhost:5001/#index", this.index)

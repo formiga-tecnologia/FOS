@@ -151,10 +151,19 @@ class routesEngine {
             }
             console.log(targetLocation[index_count])
             index_count+=1;
-            
         }
         console.log(index_count)
         console.log(CountTargetLocation)
+        let targetCase = targetLocation.slice(index_count+1,CountTargetLocation)
+        let RouteRegistred = this.routePath.indexOf(routeTarget+'/'+targetCase)
+        
+        if(RouteRegistred>=0){
+            this.goToLink(routeTarget+'/'+targetCase)
+        }
+        else{
+            this.goToLink(targetLocation)
+        }
+
     }
     runRoute(initialPage, InitialPageRedirect) {
         if (window.location.href == initialPage) {
