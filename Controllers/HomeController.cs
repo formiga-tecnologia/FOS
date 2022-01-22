@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using FOS.Models;
 using System.Net.Http;
 using Microsoft.Extensions.Caching.Memory;
 using System.Text.Json;
+using Mirna;
 
 namespace FOS.Controllers
 {
@@ -27,6 +26,8 @@ namespace FOS.Controllers
             {
                 return View();
             }   
+            Mirna.DbAccess K = new Mirna.DbAccess("","","");
+            K.ReadAllDocument("","");
 
             using ( var httpClient = new HttpClient()){
                 var URL = "https://jsonplaceholder.typicode.com/todos";

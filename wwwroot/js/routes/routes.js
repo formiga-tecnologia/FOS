@@ -45,7 +45,7 @@ class RoutesBase {
         _renderLavine.registerDinamicPage("appLavine")
         _renderLavine.clearPage()
         IndexPage("teste")
-    }
+    }p
     pagina2() {
         console.log("Sobre")
         _renderLavine.registerDinamicPage("appLavine")

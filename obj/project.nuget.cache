@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "baPiCUBFKyR16VDg57V81S239nsrxdl835s1rfiGbClHAOJd90ilblg+5dLm0YQXYckcwtbZb/Po+OLEQHPEdw==",
+  "dgSpecHash": "dsFqoqj4ZeVot3jZ8PcqfTlaieOp8HaqpgY8k0y/wF1CjaVZsQszUBe1YwHrOdrjAwdeAUaTqnc7ut4+rCi/8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\FELIPE\\Documents\\FormigaTech\\FosHub\\FOS\\FOS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\FELIPE\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
