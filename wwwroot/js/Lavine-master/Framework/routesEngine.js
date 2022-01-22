@@ -7,6 +7,7 @@ class routesEngine {
     routePropsVars = []
     listenersEvents = [0, 1]
     listenerAwaitEvents = ""
+
     //Define Routes
     goToLink(link) {
         let verifyRoute = false

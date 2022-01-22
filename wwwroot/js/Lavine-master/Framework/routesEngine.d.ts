@@ -1,4 +1,5 @@
 export class Routes{
+    
     goToLink(link:any):void
     getUpdateRoutes():void
     getRouteVars():void

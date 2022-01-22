@@ -12,8 +12,9 @@ class RoutesBase {
 
     //Rotas Padrão
     HomeRoutes() {
-        //https://localhost:5001/Home/NewUser/?id=felipe/#test
+        //https://localhost:5001/Home/NewUser/?id=felipe/#teste
         //Apenas para testes
+        _baseRoutes.RedirectRouteErrorOrDefault = "https://localhost:5001/#teste"
         _baseRoutes.registerRoute("https://localhost:5001/#teste", this.index)
         _baseRoutes.registerRoute("https://localhost:5001/#localizate", this.pagina3)
         _baseRoutes.registerRoute("https://localhost:5001/#permalink", this.index)
