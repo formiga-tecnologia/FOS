@@ -6,21 +6,43 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using FOS.Models;
+using System.Net.Http;
+using Microsoft.Extensions.Caching.Memory;
+using System.Text.Json;
 
 namespace FOS.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IMemoryCache _memoryCache;
+        private const string KEYCACHE = "key1";
+        public HomeController(IMemoryCache memoryCache)
         {
-            _logger = logger;
+            _memoryCache = memoryCache;
         }
 
-        public IActionResult Index()
+        public  async Task<IActionResult> Index()
         {
-            return View();
+            if(_memoryCache.TryGetValue(KEYCACHE,out List<ListDelic> Teste))
+            {
+                return View();
+            }   
+
+            using ( var httpClient = new HttpClient()){
+                var URL = "https://jsonplaceholder.typicode.com/todos";
+                var response = await httpClient.GetAsync(URL);
+                var responseData = await response.Content.ReadAsStringAsync();
+               Teste = JsonSerializer.Deserialize<List<ListDelic>>(responseData);
+
+                var memoryCacheEntyOptions = new MemoryCacheEntryOptions{
+                AbsoluteExpirationRelativeToNow =TimeSpan.FromSeconds(3600),
+                SlidingExpiration = TimeSpan.FromSeconds(1200)
+                };
+                _memoryCache.Set(KEYCACHE,Teste,memoryCacheEntyOptions);
+
+                return View();
+            }
+
         }
 
         public IActionResult Privacy()
