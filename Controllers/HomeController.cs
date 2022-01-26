@@ -13,6 +13,7 @@ namespace FOS.Controllers
 {
     public class HomeController : Controller
     {
+        DataBaseRepository DataBases = new DataBaseRepository();
         private readonly IMemoryCache _memoryCache;
         private const string KEYCACHE = "key1";
         public HomeController(IMemoryCache memoryCache)
@@ -26,8 +27,8 @@ namespace FOS.Controllers
             {
                 return View();
             }   
-            DataBaseRepository DataBases = new DataBaseRepository();
-            DataBases.CreateCon();
+            
+            
 
             using ( var httpClient = new HttpClient()){
                 var URL = "https://jsonplaceholder.typicode.com/todos";
@@ -48,6 +49,7 @@ namespace FOS.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.Base = DataBases.CreateCon();
             return View();
         }
         public IActionResult UserArea(string user)

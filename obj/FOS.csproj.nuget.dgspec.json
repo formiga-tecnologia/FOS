@@ -41,6 +41,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.43.0, )"
+            },
+            "mongodb.driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
             }
           },
           "imports": [
