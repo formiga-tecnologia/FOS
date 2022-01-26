@@ -7,7 +7,7 @@ using FOS.Models;
 using System.Net.Http;
 using Microsoft.Extensions.Caching.Memory;
 using System.Text.Json;
-using Mirna;
+using FOS.Infra;
 
 namespace FOS.Controllers
 {
@@ -26,8 +26,8 @@ namespace FOS.Controllers
             {
                 return View();
             }   
-            Mirna.DbAccess K = new Mirna.DbAccess("","","");
-            K.ReadAllDocument("","");
+            DataBaseRepository DataBases = new DataBaseRepository();
+            DataBases.CreateCon();
 
             using ( var httpClient = new HttpClient()){
                 var URL = "https://jsonplaceholder.typicode.com/todos";
