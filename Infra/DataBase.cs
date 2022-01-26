@@ -9,4 +9,4 @@ namespace FOS.Infra
             System.Console.WriteLine("Hello Database");
         }
     }
-}
+} 
