@@ -49,7 +49,8 @@ namespace FOS.Controllers
 
         public IActionResult Privacy()
         {
-            ViewBag.Base = DataBases.CreateCon();
+            string result =DataBases.CreateCon().ToString(); 
+            ViewBag.Base = "result";
             return View();
         }
         public IActionResult UserArea(string user)
